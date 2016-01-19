@@ -4,11 +4,9 @@ Automated Image Shuffle
 
 Python script to shuffle images within a folder, for blind scoring of biology experiments, etc.
 
-Installation
-############
 
-Using Anaconda
---------------
+Installation Using Anaconda
+---------------------------
 
 Download and install anaconda https://www.continuum.io/downloads
 
@@ -20,8 +18,8 @@ Install `Image Shuffle` with dependencies:
 
     conda install image-shuffle
 
-Using Pip
----------
+Installation Using Pip
+----------------------
 
 Install 
 
