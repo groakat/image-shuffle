@@ -15,6 +15,7 @@ from os.path import join as pjoin, splitext, split as psplit
 from distutils.core import setup
 from distutils.command.install_scripts import install_scripts
 from distutils import log
+from setuptools import find_packages
 
 BAT_TEMPLATE = \
 r"""@echo off
@@ -74,7 +75,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'image_shuffle = image_shuffle.image_shuffle.:main',
+            'image_shuffle = image_shuffle.image_shuffle:main',
         ],
         'gui_scripts': [
             'image_shuffle_gui = image_shuffle.gui:main',

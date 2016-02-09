@@ -73,14 +73,16 @@ class ShuffleGui(QtGui.QMainWindow):
             msg_box.exec_()
 
 
-
-
-if __name__ == "__main__":
+def main():
     app = QtGui.QApplication(sys.argv)
 
     w = ShuffleGui()
 
     # app.connect(app, QtCore.SIGNAL("aboutToQuit()"), w.exit)
     # w.quit.connect(app.quit)
-
     sys.exit(app.exec_())
+
+
+
+if __name__ == "__main__":
+    main()
