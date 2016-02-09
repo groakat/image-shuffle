@@ -30,3 +30,16 @@ Install
 then install `Image Shuffe` with
 
     pip install https://github.com/groakat/image-shuffle/archive/master.zip
+
+
+
+Usage
+-----
+
+After installing the script, in OSX and Linux open a terminal and type
+    
+    image_shuffle_gui
+
+To start the graphical interface. A commandline interface is available via
+
+    image_shuffle
